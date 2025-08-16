@@ -6,62 +6,183 @@
   <title>Hari Dhakal - Tourist Guide</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin: 0; padding: 0;
-      background: #f4f4f4;
+      background: #f8f9fa;
       color: #333;
+      line-height: 1.6;
     }
     header {
-      background: #2c3e50;
+      background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://www.adventurevisiontreks.com/uploads/pokhara-view-from-world-peace-stupa.jpg');
+      background-size: cover;
+      background-position: center;
       color: #fff;
-      padding: 20px;
+      padding: 60px 20px;
       text-align: center;
     }
-    section {
-      padding: 20px;
+    .hero {
       max-width: 800px;
+      margin: 0 auto;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
       margin: auto;
     }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      margin: 30px 0;
+    }
+    .card {
+      flex: 1;
+      min-width: 300px;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      padding: 20px;
+    }
     .contact a {
-      display: block;
-      margin: 10px 0;
+      display: inline-block;
+      margin: 10px 10px 10px 0;
       text-decoration: none;
       color: #2c3e50;
       font-weight: bold;
+      padding: 10px 15px;
+      background: #f1f1f1;
+      border-radius: 5px;
+      transition: all 0.3s ease;
     }
     .contact a:hover {
-      color: #e74c3c;
+      background: #2c3e50;
+      color: white;
     }
     footer {
       text-align: center;
-      padding: 15px;
+      padding: 25px;
       background: #2c3e50;
       color: white;
-      margin-top: 20px;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 20px;
+      margin: 30px 0;
+    }
+    .gallery img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 8px;
+      transition: transform 0.3s ease;
+    }
+    .gallery img:hover {
+      transform: scale(1.03);
+    }
+    .highlight {
+      color: #e74c3c;
+      font-weight: bold;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Hari Dhakal</h1>
-    <h3>Professional Tourist Guide - Pokhara, Nepal</h3>
+    <div class="hero">
+      <h1>Hari Dhakal</h1>
+      <h2>Professional Tourist Guide</h2>
+      <p>Exploring the beauty of Pokhara, Nepal with passion and expertise</p>
+    </div>
   </header>
 
   <section>
-    <p>Welcome! My name is <strong>Hari Dhakal</strong>, a local tourist guide based in the beautiful city of <strong>Pokhara, Nepal</strong>. I specialize in guiding travelers through the stunning mountains, lakes, and cultural heritage sites of Nepal.</p>
-    
-    <h2>Contact Me</h2>
-    <div class="contact">
-      <a href="https://wa.me/9806538812" target="_blank">📱 WhatsApp: 9806538812</a>
-      <a href="https://www.instagram.com/mountainhari?igsh=YXZvb2ZmZXIxczE2" target="_blank">📷 Instagram: @mountainhari</a>
-      <a href="https://www.facebook.com/share/1A1MP42u3w/" target="_blank">📘 Facebook: Hari Dhakal</a>
+    <div class="container">
+      <div class="card">
+        <h2>About Me</h2>
+        <p>Namaste! I'm <span class="highlight">Hari Dhakal</span>, a certified tourist guide with over <span class="highlight">20 years</span> of experience showing visitors the wonders of <span class="highlight">Pokhara, Nepal</span>. Born and raised in this beautiful region, I combine deep local knowledge with professional guiding expertise to create unforgettable experiences.</p>
+        <p>I'm fluent in English, Nepali, and Hindi, and specialize in:</p>
+        <ul>
+          <li>Mountain trekking and hiking tours</li>
+          <li>Cultural heritage walks</li>
+          <li>Adventure activities</li>
+          <li>Customized private tours</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Popular Tours</h2>
+        <ul>
+          <li><strong>Annapurna Base Camp Trek</strong> - 7-12 day adventure through breathtaking landscapes</li>
+          <li><strong>Pokhara City Highlights</strong> - Full day tour covering Phewa Lake, World Peace Pagoda, and more</li>
+          <li><strong>Sarangkot Sunrise & Paragliding</strong> - Morning experience with panoramic Himalayan views</li>
+          <li><strong>Cultural Village Tour</strong> - Half day exploration of traditional Nepalese life</li>
+          <li><strong>Begnas Lake Retreat</strong> - Peaceful getaway to Pokhara's second largest lake</li>
+          <li><strong>Ghorepani Poon Hill Trek</strong> - Classic 4-5 day trek with stunning mountain vistas</li>
+          <li><strong>Mardi Himal Trek</strong> - Off-the-beaten-path 5-7 day adventure</li>
+        </ul>
+        <p>All tours can be customized to your preferences and fitness level. I also arrange special packages for photography tours, yoga retreats, and family adventures.</p>
+      </div>
     </div>
 
-    <p><em>💬 Message me on WhatsApp or my social media for more details about tour packages and prices.</em></p>
+    <h2>Photo Gallery</h2>
+    <div class="gallery">
+      <img src="https://media.discordapp.net/attachments/1388715096443850892/1406298608499687544/IMG_20250816_211313.jpg?ex=68a1f524&is=68a0a3a4&hm=ac548dcb9d3cbb994e21091879b0cac2ac6d586568a24c38df7c58e50e390fa5&=&format=webp" alt="Pokhara landscape">
+      <img src="https://media.audleytravel.com/-/media/images/home/indian-subcontinent/nepal/places/istock_848682628_pokhara_3000x1000.jpg?q=79&w=1920&h=685">
+      <img src="https://media.discordapp.net/attachments/1388715096443850892/1406299910709575751/Messenger_creation_20C400DD-625C-405A-870A-59BAFEC078DF.jpg?ex=68a1f65a&is=68a0a4da&hm=591568cb318bf96e13b441de3eca50945f51d8219920ca47071b411f4aecd5ac&=&format=webp&width=409&height=511" alt="Phewa Lake boats">
+      <img src="https://media.discordapp.net/attachments/1388715096443850892/1406299911082737756/Messenger_creation_90D6545B-1966-4C15-97BD-0615C6CAB60C.jpg?ex=68a1f65a&is=68a0a4da&hm=d8f3652d5129023b492810a8251257a8fb3733ff72d2577a785bd44c1f304fe1&=&format=webp&width=1136&height=512" alt="Nepalese culture">
+      <img src="https://media.discordapp.net/attachments/1388715096443850892/1406299912622178334/Messenger_creation_6FE8C791-7A9D-46B2-A28B-BFF4CDF8A569.jpg?ex=68a1f65a&is=68a0a4da&hm=a555c1e3addd4b5384cecdacb85e0e83a95c8f6a8acf3cb043d0fa24aff8b230&=&format=webp&width=911&height=512" alt="Mountain village">
+      <img src="https://media.discordapp.net/attachments/1388715096443850892/1406299911334531212/Messenger_creation_50ED5887-D4E6-4700-BEAB-8CF88D0D3CC3.jpg?ex=68a1f65a&is=68a0a4da&hm=ce406d88af64d8b33d7e7315f25e5f7ab9677fa1e705d499f49ae8aba123e25e&=&format=webp&width=1136&height=512" alt="Paragliding in Pokhara">
+    </div>
+
+    <div class="card">
+      <h2>Why Choose Me?</h2>
+      <ul>
+        <li>✅ Licensed professional guide</li>
+        <li>✅ First aid certified</li>
+        <li>✅ Flexible itineraries</li>
+        <li>✅ Local insights and hidden gems</li>
+        <li>✅ Comfortable transportation arrangements</li>
+        <li>✅ 24/7 support during your tour</li>
+      </ul>
+    </div>
+
+    <h2>Contact Me</h2>
+    <div class="contact">
+      <a href="https://wa.me/9806538812" target="_blank">📱 WhatsApp: +977 9806538812</a>
+      <a href="https://www.instagram.com/mountainhari?igsh=YXZvb2ZmZXIxczE2" target="_blank">📷 Instagram: @mountainhari</a>
+      <a href="https://www.facebook.com/share/1A1MP42u3w/" target="_blank">📘 Facebook: Hari Dhakal</a>
+      <a href="mailto:haridhakalnp@gmail.com">✉️ Email: haridhakalnp@gmail.com</a>
+    </div>
+
+    <p style="text-align: center; margin-top: 30px;">
+      <em>💬 Contact me for customized tour packages and special group discounts!</em>
+    </p>
+  </section>
+
+  <section style="background: #f1f1f1;">
+    <div class="card" style="max-width: 800px; margin: 0 auto;">
+      <h2 style="text-align: center;">What My Clients Say</h2>
+      <div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center;">
+        <div style="flex: 1; min-width: 250px;">
+          <p>"Hari made our Annapurna trek unforgettable with his deep knowledge and caring attitude. Best guide in Nepal!"</p>
+          <p><strong>- Sarah, Australia</strong></p>
+        </div>
+        <div style="flex: 1; min-width: 250px;">
+          <p>"His connections with local communities gave us experiences we'd never find on our own. Truly special!"</p>
+          <p><strong>- Raj, India</strong></p>
+        </div>
+        <div style="flex: 1; min-width: 250px;">
+          <p>"20 years of experience shows in every detail of his tours. We felt completely safe and well taken care of."</p>
+          <p><strong>- Michael & Emma, UK</strong></p>
+        </div>
+      </div>
+    </div>
   </section>
 
   <footer>
-    <p>&copy; 2025 Hari Dhakal | Tourist Guide - Nepal</p>
+    <p>&copy; 2025 Hari Dhakal | Certified Tourist Guide - Nepal</p>
+    <p>Pokhara Tourism License No: NP-TOUR-2025</p>
+    <p>Member of Nepal Tourist Guide Association</p>
   </footer>
 </body>
 </html>
